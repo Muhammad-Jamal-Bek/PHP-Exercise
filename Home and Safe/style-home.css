@@ -1,0 +1,43 @@
+body{
+    background: lightslategray;
+    padding: 0px 10% 0px 10%;
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+header{
+    background: black;
+    text-align: center;
+    color: wheat;
+}
+img{
+    max-width: 25%;
+    height: auto;
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 5%;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    padding-bottom: 0px;
+}
+a{
+    color: darkred;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+    background: silver;
+    border: 1px solid black;
+}
